@@ -1,0 +1,578 @@
+ body{
+    width: 100%;
+    padding: 0px;
+    margin: 0;
+ }
+ 
+ .head{
+    display: flex;
+    
+    position: relative;
+    top: 20px;
+  } 
+
+.cares{
+    position: relative;
+    left: -10px;
+    
+    background-color: red;
+    color: red;
+    width: 35px;
+    height: 20px;
+    border-radius: 10px;
+}
+  
+  .titre-1{
+    position: relative;
+    right: 50px;
+  }
+  
+  .flech1 {
+    position: relative;
+    left: 200px;
+    top: 20px;
+    width: 50px;
+    height: 50px;
+    left: 600px;
+    border-radius: 50%;
+    background-color: gainsboro;
+    border: 1px solid gainsboro;
+
+  }
+  
+  .cartCategorie{
+      display: flex;
+    left: 20px;
+      position: relative;
+      top: 50px;
+      gap: 30px;
+      overflow-x: auto;
+      font-size: 0px;
+      scrollbar-width: none; 
+   
+  }
+  
+  .cartCategorie::-webkit-scrollbar{
+    display: none;
+  }
+
+  
+  
+  
+  .category-phone {
+    border: 1px solid black;
+    padding: 20px;
+    width: 190px;
+    height: 150px;
+  }
+  
+  .category-phone:hover {
+    background-color: red;
+  }
+  
+  .category-phone3 {
+    border: 1px solid black;
+    padding: 20px;
+    width: 250px;
+    height: 150px;
+  }
+  
+  .category-phone3:hover {
+    background-color: red;
+  }
+  
+ 
+  
+  .phones {
+    font-size: 25px;
+    
+  color: black;
+  text-decoration: underline;
+  }
+  
+  .phones a{
+   text-decoration: none;
+  }
+  
+  .phones:hover {
+    color: aliceblue;
+  }
+  
+  
+  .phones1 {
+    position: relative;
+    font-size: 25px;
+    left: 30px;
+    color: black;
+    text-decoration: underline;
+  }
+  
+  .phones1 a{
+   text-decoration: none;
+  }
+  
+  .phones1:hover {
+    color: aliceblue;
+  }
+  
+  
+  
+  .phones3 {
+    position: relative;
+    font-size: 25px;
+    left: 40px;
+    color: black;
+    text-decoration: underline;
+  }
+  
+  .phones3 a{
+   text-decoration: none;
+  }
+  
+  .phones3:hover {
+    color: aliceblue;
+  }
+  .category-img:hover {
+    color: aliceblue;
+  }
+  
+  .phones2 {
+    position: relative;
+    font-size: 25px;
+    left: 10px;
+    color: black;
+    text-decoration: underline;
+  }
+  
+  .phones2 a{
+   text-decoration: none;
+  }
+  
+  .phones2:hover {
+    color: aliceblue;
+  }
+  
+  
+  .phones4 {
+    position: relative;
+    font-size: 25px;
+    left: 60px;
+  color: black;
+  text-decoration: underline;
+  }
+  
+  .phones4 a{
+   text-decoration: none;
+  }
+  
+  .phones4:hover {
+    color: aliceblue;
+  }
+  
+  
+  
+  .icone{
+    
+      width: 200px;
+     color: black;
+     font-weight: 800px;
+     font-size: 60px;
+   
+  }
+  
+  .icone a{
+   
+     text-decoration: none;
+   
+  }
+  
+  .icone:hover{
+    color: aliceblue;
+    
+  }
+  
+  .icone1{
+    position: relative;
+    right: 30px;
+    width: 200px;
+    color: black;
+    font-weight: 800px;
+    font-size: 60px;
+   
+  
+  }
+  
+  .icone1 a{
+  
+   text-decoration: none;
+  
+  }
+  
+  .icone1:hover{
+  color: aliceblue;
+  
+  }
+
+  /* startttt detailscart */
+  .entete{
+    position: relative;
+    height: 48px;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+
+    
+
+  }
+
+  .langue{
+   position: relative;
+   left: 300px;
+  }
+
+  .show {
+    position: relative;
+    left: 5px;
+   color: aliceblue;
+
+  }
+
+  header{
+    /* position: fixed; */
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 10%;
+    
+}
+
+.logo{
+    position: relative;
+    font-family: fantasy;
+    color: black;
+    text-decoration: none;
+    right: 150px;
+}
+
+.nav-icon{
+    position: relative;
+    right: 200px;
+    display: flex;
+    align-items: center;
+    gap:10px;
+    color: black;
+    font-size: 30px;
+ 
+}
+
+.nav-icon a{
+   position: relative;
+   left: 100px;
+   color: gray;
+   text-decoration: none;
+   transition: all .42s ease;
+}
+
+.nav-icon a:hover{
+  transform: scale(1.1);
+  color: rosybrown;
+}
+.btn1{
+    width: 200px;
+    height: 38px;
+    border: gainsboro;
+    background-color: gainsboro;
+    padding-right: 50px;
+}
+
+#menu-icon{
+font-size: 35px;
+z-index: 10001 ;
+cursor: pointer;
+left: 60px;
+visibility: hidden;
+
+}
+
+
+.navbar{
+    position: relative;
+    right: 150px;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+     list-style: none;    
+
+} 
+
+.navbar a{
+   color: black;
+   font-size: 1;
+   font-weight: 400;
+   padding: 10px 20px;
+   margin: 0px 30;
+   transition: all .5s ease ;
+   text-decoration: none;
+
+}
+
+.navbar a li{
+
+   text-decoration: none;
+
+}
+
+.navbar a:hover{
+   color: rosybrown;
+}
+
+.navbar a:active{
+   color: green;
+} 
+.ligne{
+    position: relative;
+    top: 80px;
+    color: blueviolet;
+}
+.section-1{
+    position: relative;
+    top :150px;
+    left: 90px;
+    color: gainsboro;
+}
+
+.section-1:hover{
+    color: black;
+}
+
+
+
+/* section2 */
+.container-2{
+    position: relative;
+    top: 250px;
+    display: flex;
+   
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+    left:80px;
+}
+.card-img{
+    width: 150px;
+    height: 135px;
+    background-color: #F5F5F5;
+}
+
+.card-img2{
+    position: relative;
+    width: 500px;
+    height: 500px;
+   top: 90px;
+   left: 10px;
+  
+}
+.img-2-1{
+    background-color: #F5F5F5;
+    width: 500px;
+    height: 600px;
+}
+
+.card-img1{
+   display: grid;
+   grid-gap: 500px;
+   grid-template-columns: 330px ;
+   gap: 20px;
+   width: 130px;
+   height: 600px;
+   
+}
+.bloc3{
+    position: relative;
+    left: 0px;
+    top: 160px;
+    font-weight: 900px;
+    
+
+}
+.havic{
+    position: relative;
+    bottom: 140px;
+
+  
+}
+.icone-start{
+    position: relative;
+    bottom: 140px;
+   
+    font-size: 20px;
+ 
+}
+.start1{
+    color: #FFAD33;
+}
+
+.prix{
+    position: relative;
+    bottom: 140px;
+  
+   
+ 
+}
+.colors{
+    position: relative;
+    display: flex;
+    bottom: 150px;
+ 
+    gap: 20px;
+
+}
+
+.img-color{
+    width: 50px;
+    height: 30px;
+    position: relative;
+    top: 20px;
+
+}
+
+.size{
+    position: relative;
+    display: flex;
+    bottom: 150px;
+ 
+    gap: 20px;
+
+}
+.taille{
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+   
+}
+
+.taille:hover{
+  background-color: red;
+   
+}.groubtn{
+    position: relative;
+    display: flex;
+    bottom: 150px;
+    
+    gap: 20px;
+}
+.btn3{
+    width: 140px;
+    height: 40px;
+    border-radius: 5px ;
+    cursor: pointer;
+    border: 1px solid #00000080;
+}
+
+.btn4{
+    position: relative;
+    right: 120px;
+    width: 140px;
+    height: 40px;
+    border-radius: 5px ;
+    cursor: pointer;
+    color: black;
+}
+.btn4:hover{
+    background-color: red;
+    border:  1px solid red;
+    color: #F5F5F5;
+     
+  }
+
+.plus{
+    position: relative;
+    bottom: 22px;
+    right: 50px;
+    background-color: red;
+    width: 40px;
+    height: 40px;
+    color: #F5F5F5;
+    border-radius: 5px ;
+    border:  1px solid red;
+    cursor: pointer;
+   
+}
+
+.moin{
+    position: relative;
+    bottom: 22px;
+    right: 220px;
+    border: 1px solid #00000080;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px ;
+    cursor: pointer;  
+}
+
+ .heart-prix{
+    position: relative;
+    right: 130px;
+    border: 1px solid #00000080;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px ;
+    cursor: pointer;  
+
+ }
+
+ .bloc-free{
+    position: relative;
+    bottom: 150px;
+    
+    border: 1px solid black;
+    width: 350px;
+    height: 250px;
+
+ }
+ .free{
+    position: relative;
+ 
+    left: 40px;
+ }
+
+ .deli{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    bottom: 60px;
+ }
+
+
+
+
+
+
+  @media only screen and (max-width: 768px){
+    .head .flech1{
+        display: none !important;
+    }
+    .cartCategorie{
+        gap: 20px;
+        display: grid;
+        grid-template-columns: auto;
+         width: 100%;
+      
+    }
+     .titre-1{
+        position: relative;
+        left: 20px;
+      }
+      .categories{
+        position: relative;
+        left: 30px;
+
+      }
+  }
+
+  
